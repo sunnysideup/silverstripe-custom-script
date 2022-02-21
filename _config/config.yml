@@ -1,0 +1,7 @@
+---
+name: sunnysideup_custom-script
+---
+
+Silverstripe\SiteConfig\SiteConfig:
+  extensions:
+    - Sunnysideup\CustomScript\Extensions\SiteConfigExtension

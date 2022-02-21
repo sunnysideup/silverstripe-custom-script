@@ -1,0 +1,30 @@
+{
+    "name": "sunnysideup/custom-script",
+    "type": "silverstripe-vendormodule",
+    "description": "Add custom scripts to your website",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "javascript",
+        "css",
+        "saas"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/recipe-cms": "^4.4"
+    },
+    "extra": [],
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\CustomScript\\": "src/"
+        }
+    }
+}
